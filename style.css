@@ -1,0 +1,79 @@
+* {padding: 0px; margin: 0px; font-family: Myriad Pro; color: white;}
+
+.menu {width: 100%;}
+	.header {width: 100%; height: 120px; }
+		.header_fix { width: 1170px; height: 120px;  margin: 0px auto; }
+			.header_logo {height: 120px; width: 209px; background: url("images/header_logo.png") no-repeat left top 29px; display: block; float: left;}
+			.header_menu {width: 548px; height: 120px; margin-left: 622px; box-sizing: border-box; }
+				.header_menu ul { line-height: 120px;}
+				.header_menu li {float: left; display: block; margin-left: 50px;}
+				.header_menu li:nth-child(1) {margin-left: 0px;}
+				.header_menu a {font-size: 13px; text-decoration: none; text-transform: uppercase; color: #7e7e7e; transition: 0.3s;}
+				.header_menu a:hover {color: #42b3e5;}
+
+	.main {width: 100%; background: purple;}
+		.providing {width: 100%; height: 580px; background: url("images/providing.png") no-repeat center/cover;}
+			.providing_fix {width: 1170px; height: 580px; ; margin: 0px auto;}
+				.providing_text {height: 434px; width: 733px;  padding-top: 204px; box-sizing: border-box; padding-left: 1px; font-size: 34px;text-transform: uppercase;}
+				.providing_text span {font-size: 144px; text-transform: uppercase;}
+					.providing_fix input {width: 240px; height: 56px; padding-left: 1px; box-sizing:border-box; background: #3a9ecb; margin-top: 20px; border: 0px; font-size: 30px; text-transform: uppercase; cursor: pointer;} 
+					.providing_fix input:hover {color: #7e7e7e;}
+		.about_us {width: 100%; height: 759px; background: url("images/about_us_fon.png") no-repeat center/cover;}	
+			.about_us_fix {height: 759px; width: 1170px;  margin: 0px auto; }
+				.about_us_text1 {height: 111px; width: 1170px; color: #42b3e5; font-size: 90px; text-transform: uppercase; text-align: center;}
+				.about_us_text2 {height: 59px; width: 1170px;  text-align: center; color: #737373; font-size: 24px;}
+				.about_us_banners {height: 529; width: 1170px;  block; float: left;}
+					.about_us_banners1 { width: 363px; height: 503px; background: url("images/about_us_banners1.png") no-repeat center; margin-right: 40px;  float: left;margin-top: 26px;}
+						.about_us_banners1_text {height: 133px;width: 294px;  margin-left: 36px;margin-top: 340px; padding-top: 20px; font-size: 13px;text-indent: justify; padding-left: 20px;}
+						.about_us_banners1 span {text-transform: uppercase; padding-left: 28px; font-weight: 700; font-size: 16px;}
+					.about_us_banners2 { width: 363px; height: 503px; background: url("images/about_us_banners2.png") no-repeat center; margin-right: 40px;   float: left;margin-top: 26px;}
+						.about_us_banners2_text {height: 133px;width: 294px;margin-left: 36px;margin-top: 340px;font-size: 13px;padding-top: 20px;padding-left: 20px;}
+						.about_us_banners2 span {font-size: 16px;text-transform: uppercase; text-align: center;padding-left: 40px; font-weight: 700;}
+					.about_us_banners3 { width: 364px; height: 503px; background: url("images/about_us_banners3.png") no-repeat center/cover;   float: left;margin-top: 26px;}
+						.about_us_banners3_text {height: 133px;width: 294px;margin-left: 36px; margin-top: 340px;font-size: 13px;padding-top: 20px;padding-left: 20px;}
+						.about_us_banners3 span {font-size: 16px;text-transform: uppercase;padding-left: 58px; font-weight: 700;}
+		.our_services {width: 100%; height: 640px;  background: url("images/our_services_block.png") no-repeat center/cover;}
+			.our_services_fix {width: 1170px; height: 640px;  margin: 0px auto;}
+				.our_services_text {width: 544px; height: 167px; margin: 0px 314px; text-align: center;font-size: 12px; padding-top: 30px; box-sizing: border-box;}
+				.our_services_text span {font-size: 40px;}	
+				.our_services_block {width: 1170px; height: 295px;  }				
+					.our_services_blocks1 {width: 223px; height: 295px; background: url("images/our_services_blocks1.png") no-repeat center top; float: left;text-align: center; padding-top: 270px;font-size: 18px;text-transform: uppercase;}				
+					.our_services_blocks2 {width: 223px; height: 295px; background: url("images/our_services_blocks2.png") no-repeat center top;float: left; margin-left: 93px;text-align: center;padding-top: 270px;font-size: 18px;text-transform: uppercase;}				
+					.our_services_blocks3 {width: 223px; height: 295px; background: url("images/our_services_blocks3.png") no-repeat center top;float: left;margin-left: 93px;text-align: center;padding-top: 270px;font-size: 18px;text-transform: uppercase;}				
+					.our_services_blocks4 {width: 223px; height: 295px; background:url("images/our_services_blocks4.png") no-repeat center top;float: left;margin-left: 92px;text-align: center;padding-top: 270px;font-size: 18px;text-transform: uppercase;}				
+		.our_team {width: 100%; height: 724px; background: #fff;}			
+			.our_team_fix {width: 1170px; height: 724px;  margin: 0px auto;}
+				.our_team_tittle {width: 982px; height: 146px; margin-left: 95px; position: absolute;font-size: 12px; color: #737373;text-align: center; text-transform: uppercase;padding-top: 40px; box-sizing: border-box;}
+				.our_team_tittle span {font-size: 70px; text-align: center; color: #42b3e5; text-transform: uppercase;}
+				.our_team_doctors {height: 468px; width: 1170px; background: url("images/our_services_block.png")no-repeat center; margin-top: 196px; position: absolute; padding-left: 2.5px; box-sizing: border-box; }	
+					.our_team_doctors_element1 {width: 233px; height: 234px; background: url("images/our_team_doctors_element1.png")no-repeat center;float: left; border: 1px solid #e5e5e5; box-sizing: border-box;}		
+					.our_team_doctors_element2 {width: 233px; height: 234px;float: left; padding-left: 15px; padding-top: 17px; box-sizing: border-box;}
+					.our_team_doctors_element2 span {text-transform: uppercase;}	
+					.our_team_doctors_element3 {width: 233px; height: 234px; background: url("images/our_team_doctors_element3.png")no-repeat center;float: left;}		
+					.our_team_doctors_element4 {width: 233px; height: 234px; ;float: left;padding-left: 15px; padding-top: 17px; box-sizing: border-box;}	
+					.our_team_doctors_element4 span {text-transform: uppercase;}
+					.our_team_doctors_element5 {width: 233px; height: 234px; background: url("images/our_team_doctors_element5.png")no-repeat center;float: left;}		
+					.our_team_doctors_element6 {width: 233px; height: 234px; ;float: left;padding-left: 15px; padding-top: 17px; box-sizing: border-box;}
+					.our_team_doctors_element6 span {text-transform: uppercase;}
+					.our_team_doctors_element7 {width: 233px; height: 234px; background: url("images/our_team_doctors_element7.png")no-repeat center;float: left;}
+					.our_team_doctors_element8 {width: 233px; height: 234px; ;float: left;padding-left: 15px; padding-top: 17px; box-sizing: border-box;}
+					.our_team_doctors_element8 span {text-transform: uppercas4e;}
+					.our_team_doctors_element9 {width: 233px; height: 234px; background: url("images/our_team_doctors_element9.png")no-repeat center;float: left;}	
+					.our_team_doctors_element10 {width: 233px; height: 234px; ;float: left;padding-left: 15px; padding-top: 17px; box-sizing: border-box;}
+					.our_team_doctors_element10 span {text-transform: uppercase;}
+	.footer {width: 100%; background: url("images/contact_us_fon.png") no-repeat center/cover; margin-top: 1350px; position: absolute;}
+		.contact_us_fix {width: 1170px; height: 603px; background: url("images/contact_us_fix.png") no-repeat center; margin: 119px auto;  }
+		.contact_us_tittle {height: 100px; width: 615px; margin-left: 350px; position: absolute;  box-sizing: border-box; font-size: 70px; line-height: 150px;}
+		.contact_us_information {height: 306px; width: 502px; margin-top: 101px; position: absolute; margin-left: 28px; font-size: 20px; padding-top: 50px; box-sizing: border-box; background: url("images/contact_us_information_line1.png") no-repeat left top 90px;}
+			.contact_us_information_contacts {width: 340px; height: 194px; background: url(images/contact_us_information_icons.png) no-repeat left; margin-top: 42px; position: absolute;}
+			.contact_us_information_contacts span {margin-left: 30px; line-height: 41px; font-size: 14px;}
+		.contact_us_form {float: right; height: 434px; width: 530px; margin-top: 129px;}
+			.contact_us_form_tittle {font-size: 20px; line-height: 64px; width: 500px; height: 64px; background: url("images/contact_us_information_line1.png") no-repeat left bottom;}	
+			.contact_us_form form {height: 370px; float: left;}
+			.contact_us_form input {width: 500px; height: 39px; margin-top: 8px; color: #477886; font-size: 13px; line-height: 40px; padding-left: 20px; box-sizing: border-box;}
+			.contact_us_form input:nth-child(4) {width: 500px; height: 140px; line-height: none;}
+			.contact_us_form input:nth-child(5) {width: 180px; height: 50px; float: right; margin-right: 30px; text-align: center; padding-left: 0px; background: url("images/contact_us_form_submit.png")no-repeat center; border: none; font-size: 22px; color: #fff; text-transform: uppercase; line-height: 50px;}
+			.contact_us_form input:nth-child(5):hover {color: #42b3e5; cursor: pointer;}
+		.footer_footer {height: 64px; width: 100%; background: white; color: #000000; font-size: 12px; line-height: 64px; }
+			.footer_footer_fix {width:  1170px; height: 64px; margin: 0px auto; color: #000000; font-size: 12px; line-height: 64px;}
+				.footer_footer_seti {width: 90px; height: 64px;  background: url("images/footer_footer_seti.png")no-repeat center; float: right;}	
