@@ -1,1 +1,1 @@
-# medical https://tamirlanshakh.github.io/medical/
+# medical https://shakhtim.github.io/medical/
